@@ -16,8 +16,14 @@
   ))
 }
 
+// .match-input-height {
+//   height: var(--mat-form-field-container-height) !important
+// }
+
 .match-input-height {
-  height: var(--mat-form-field-container-height) !important
+  height: 57px !important; 
+  min-height: 36px !important;
+  line-height: 36px !important;
 }
 
 html {
